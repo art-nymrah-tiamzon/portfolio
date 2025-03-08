@@ -36,6 +36,7 @@
                 img{
                     width: 200px;
                     border-radius: 50px;
+                    max-width: 100%;
                 }
 
 
@@ -64,9 +65,131 @@
                 margin: 10px auto;
                 }
 
+            .sidebar {
+                width: 250px;
+                height: 100%;
+                background: #ff69b4;
+                position: fixed;
+                left: -250px;
+                top: 0;
+                transition: 0.3s ease;
+                padding-top: 60px;
+                font-family: "Lilita One", sans-serif;
+                box-shadow: 5px 0 10px rgba(0,0,0,0.3);
+            }
+
+            .sidebar a {
+                display: block;
+                padding: 15px;
+                color:white;
+                font-family: "Lilita One", sans-serif;
+                text-decoration: none;
+                font-size: 20px;
+                transition: 0.2s;
+            }
+
+            .sidebar a:hover {
+                background: rgba(255, 255, 255, 0.2);
+            }
+
+            #sidebar-toggle {
+                display: none;
+            }
+
+            #sidebar-toggle:checked + .sidebar {
+                left: 0;
+            }
+
+            .menu-btn {
+                font-size: 30px;
+                cursor: pointer;
+                position: absolute;
+                left: 15px;
+                top: 15px;
+                text-decoration: none;
+                color: white;
+            }
+
+            .close-btn {
+                position: absolute;
+                top: 15px;
+                right: 20px;
+                font-size: 25px;
+                text-decoration: none;
+                color: white;
+                cursor: pointer;
+            }
+
+            
+            /* size adjustments */
+            /* Responsive design */
+
+        @media screen and (max-width: 768px) {
+            .heart {
+                right: 5%; 
+                width: 80px;
+            }
+
+            .sidebar {
+                width: 200px;
+            }
+
+            .menu-btn {
+                font-size: 24px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            img {
+                width: 150px;
+            }
+
+            .about {
+                padding: 0 10px;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .heart {
+                display: none; /*heart hidden*/
+            }
+
+            .menu-btn {
+                font-size: 20px;
+                left: 10px;
+            }
+
+            h1 {
+                font-size: 20px;
+            }
+
+            img {
+                width: 120px;
+            }
+
+            .about p {
+                font-size: 14px;
+                padding: 8px;
+            }
+        }
+
+        
         </style>
     </head>
     <body>
+        <input type="checkbox" id="sidebar-toggle">
+
+        <div class="sidebar">
+            <label for="sidebar-toggle" class="close-btn">&times;</label>
+
+            <a href="certification.html">Certifications</a>
+            <a href="contact.html">Contact</a>
+            <a href="blog.html">Blog</a>
+        </div>
+
+        <label for="sidebar-toggle" class="menu-btn">☰</label>
 
         <h1>Tiamzon's Portfolio</h1> 
 
@@ -95,6 +218,7 @@
                 I plan to work together with professionals who share my values while advancing in the constantly changing technology world.
             </p>
         </div>
-   
+
+    
     </body>
 </html>
