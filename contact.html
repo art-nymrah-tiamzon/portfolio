@@ -17,59 +17,6 @@
             text-align: center;
         }
 
-        .sidebar {
-            width: 250px;
-            height: 100%;
-            background: #ff69b4;
-            position: fixed;
-            left: -250px;
-            top: 0;
-            transition: 0.3s ease;
-            padding-top: 60px;
-            box-shadow: 5px 0 10px rgba(0,0,0,0.3);
-        }
-
-        .sidebar a {
-            display: block;
-            padding: 15px;
-            color: white;
-            text-decoration: none;
-            font-size: 18px;
-            transition: 0.2s;
-        }
-
-        .sidebar a:hover {
-            background: rgba(255, 255, 255, 0.2);
-        }
-
-        #sidebar-toggle {
-            display: none;
-        }
-
-        #sidebar-toggle:checked + .sidebar {
-            left: 0;
-        }
-
-        .menu-btn {
-            font-size: 30px;
-            cursor: pointer;
-            position: absolute;
-            left: 15px;
-            top: 15px;
-            text-decoration: none;
-            color: white;
-        }
-
-        .close-btn {
-            position: absolute;
-            top: 15px;
-            right: 20px;
-            font-size: 25px;
-            text-decoration: none;
-            color: white;
-            cursor: pointer;
-        }
-
         @media (max-width: 1024px) {
             .sidebar {
                 width: 200px;
@@ -150,6 +97,9 @@
     </style>
 </head>
 <body>
+
+    <!-- function call for sidebar --> 
+    <link rel="stylesheet" href="sidebar.css">
 
     <input type="checkbox" id="sidebar-toggle">
 
