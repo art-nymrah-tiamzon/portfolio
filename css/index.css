@@ -73,3 +73,31 @@
         font-size: 32px;
       }
     }
+
+  .comment-btn-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.comment-btn {
+  background: linear-gradient(45deg, #176aeb, #7eaae6);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-family: 'Lilita One', serif;
+  font-size: 16px;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(1, 13, 27, 0.7);
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.comment-btn:hover {
+  background: linear-gradient(45deg, #7eaae6, #176aeb);
+  box-shadow: 0 6px 12px rgba(126, 170, 230, 0.9);
+}

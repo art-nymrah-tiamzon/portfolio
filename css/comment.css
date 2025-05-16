@@ -1,0 +1,95 @@
+    h1 {
+      font-family: "Lilita One", serif;
+      text-align: center;
+      margin-top: 50px;
+      font-size: 50px;
+      color: #eef6ff;
+    }
+    .caption {
+      font-family: "Lilita One", serif;
+      font-size: 30px;
+      text-align: center;
+      margin-top: 20px;
+      color: #d0e7ff;
+    }
+    .form-container {
+      width: 90%;
+      max-width: 600px;
+      margin: 40px auto 60px;
+      padding: 20px;
+      border: 3px solid #7eaae6;
+      border-radius: 12px;
+      background-color: rgba(23, 122, 235, 0.3);
+      box-shadow: 0 0 15px rgba(23, 122, 235, 0.4);
+    }
+    .form-container label {
+      font-size: 18px;
+      display: block;
+      margin: 10px 0 5px;
+      color: #d0e7ff;
+    }
+    .form-container input,
+    .form-container textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 20px;
+      border: 2px solid #a8c7ff;
+      border-radius: 8px;
+      font-size: 16px;
+      background-color: #dbeaff;
+      color: #0a1d3f;
+      box-sizing: border-box;
+      font-family: "Lilita One", serif;
+    }
+    .form-container textarea {
+      resize: vertical;
+      height: 120px;
+      line-height: 1.5;
+      vertical-align: top;
+    }
+    .form-container button {
+      background: linear-gradient(45deg, #176aeb, #7eaae6);
+      color: white;
+      border: none;
+      padding: 14px 28px;
+      font-size: 20px;
+      cursor: pointer;
+      border-radius: 20px;
+      font-family: "Lilita One", serif;
+      box-shadow: 0 4px 8px rgba(1, 13, 27, 0.7);
+      transition: background 0.3s ease, box-shadow 0.3s ease;
+    }
+    .form-container button:hover {
+      background: linear-gradient(45deg, #7eaae6, #176aeb);
+      box-shadow: 0 6px 12px rgba(126, 170, 230, 0.9);
+    }
+    .back-home {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      text-align: center;
+      color: #d0e7ff;
+      font-family: "Lilita One", serif;
+    }
+    .arrow-icon {
+      width: 80px;
+      transform: scaleX(-1);
+      cursor: pointer;
+      transition: transform 0.3s;
+    }
+    .arrow-icon:hover {
+      transform: scaleX(-1) scale(1.1);
+    }
+    .captionhomepage {
+      margin-top: 5px;
+      font-family: "Lilita One", serif;
+      font-size: 16px;
+      color: #a0c4ff;
+    }
+
+    .home-icon {
+    width: 60px;
+    transform: scaleX(-1);
+    cursor: pointer;
+    transition: transform 0.3s;
+    }   
