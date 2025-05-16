@@ -1,0 +1,91 @@
+@media (max-width: 1024px) {
+            .sidebar {
+                width: 200px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .sidebar {
+                width: 180px;
+            }
+            .menu-btn {
+                font-size: 25px;
+            }
+        }
+
+        @media (max-width: 320px) {
+            .sidebar {
+                width: 150px;
+            }
+            .sidebar a {
+                font-size: 14px;
+                padding: 10px;
+            }
+            .menu-btn {
+                font-size: 20px;
+            }
+        }
+
+        .content {
+            margin-left: 50px;
+            padding: 80px 30px 30px 80px;
+            text-align: center;
+            color: white;
+        }
+
+        .certifications-container {
+            margin-top: 40px;
+        }
+
+        .certifications-title {
+            font-size: 32px;
+            margin-bottom: 20px;
+            color: white;
+            text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+        }
+
+        .certifications-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        .certifications-grid img {
+            width: 220px;
+            height: 220px;
+            border-radius: 15px;
+            padding: 10px;
+            background: white;
+            border: 3px solid #1945a3;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+            transition: transform 0.3s ease;
+        }
+
+        .certifications-grid img:hover {
+            transform: scale(1.05);
+        }
+
+            button {
+        height: 40px;
+        width: 140px;
+        margin: 10px;
+        padding: 14px 28px;
+        font-family: "Lilita One", serif;
+        font-size: 20px;
+        background: linear-gradient(45deg, #176aeb, #7eaae6);
+        border: none;
+        border-radius: 15px;
+        color: white;
+        cursor: pointer;
+        box-shadow: 0 4px 8px rgba(1, 13, 27, 0.7);
+        transition: background 0.3s ease, box-shadow 0.3s ease;
+        }
+
+            button:hover {
+        background: linear-gradient(45deg, #7eaae6, #176aeb);
+        box-shadow: 0 6px 12px rgba(126, 170, 230, 0.9);
+        }
+
+        
