@@ -68,28 +68,7 @@
                 right: 3%; 
                 width: 60px;
             }
-
-            .sidebar {
-                width: 200px;
-            }
-
-            .menu-btn {
-                font-size: 24px;
-            }
-
-            h1 {
-                font-size: 24px;
-            }
-
-            img {
-                width: 150px;
-            }
-
-            .about {
-                padding: 0 10px;
-            }
         }
-
         @media screen and (max-width: 480px) {
             .heart {
                 display: none; /*heart hidden*/
